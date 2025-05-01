@@ -1,3 +1,47 @@
-h1{
+
+header{
+    display: grid;
+    grid-template-columns: 25% auto;
+    align-items: center;
+
+
+}
+div.name{
+    color : #8a95c3;
+    background: radial-gradient(#97622C ,#6C401E );
+    position: relative;
+    top: -10pt;
+    padding: 20pt;
+    border-radius: 15px;
+    font-size: 36pt;
+}
+header *{
+    margin: 10pt;
+}
+nav{
+    border-radius: 15px;
+    border-color: black;
+    border-width: 5pt;
+    border-style: solid;
+    background-color: #F9F5E0;
+    text-align: left;
+    padding : 10pt;
+    font-size: 22pt
+}
+nav a{
+    border-radius: 15px;
+    border-color: black;
+    border-width: 5pt;
+    border-style: solid;
+    padding-left: 10%;
+    padding-top: 10pt;
+    padding-bottom: 10pt;
+    padding-right: 10%;
     text-align: center;
+    font-size: 20pt;
+    color: black;
+    text-decoration: none;
+}
+nav a:hover{
+    background-color: #f8ec9d;
 }
