@@ -62,7 +62,6 @@ function chanageProjectDisplay(project){
     
     for(let i = 0; i < keyValuePair.length; i ++){
         let entry = $("#" + keyValuePair[i][0]);
-        console.log(entry);
         if(entry.hasClass("haslink")){
             entry.attr("href" , keyValuePair[i][1]);
         }

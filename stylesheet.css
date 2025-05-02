@@ -1,4 +1,6 @@
-
+body{
+    background-color: #F5CAB6;
+}
 header{
     display: grid;
     grid-template-columns: 25% auto;
@@ -15,9 +17,13 @@ div.name{
     border-radius: 15px;
     font-size: 36pt;
 }
+
+/* header containing my name and nav bar*/
 header *{
     margin: 10pt;
 }
+
+/* navagation bar */
 nav{
     border-radius: 15px;
     border-color: black;
@@ -28,11 +34,14 @@ nav{
     padding : 10pt;
     font-size: 22pt
 }
+/* navagiation buttons */
 nav a{
     border-radius: 15px;
     border-color: black;
     border-width: 5pt;
     border-style: solid;
+
+
     padding-left: 10%;
     padding-top: 10pt;
     padding-bottom: 10pt;
@@ -40,8 +49,12 @@ nav a{
     text-align: center;
     font-size: 20pt;
     color: black;
+
+    /* remove link stuff */
     text-decoration: none;
 }
+/* cause the nav buttons to glow */
 nav a:hover{
     background-color: #f8ec9d;
 }
+
