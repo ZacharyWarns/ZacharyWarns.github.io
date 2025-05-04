@@ -60,10 +60,24 @@ nav a:hover{
 
 #list{
     display: grid;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 27.5% 67.5%;
 }
 
-
+*.projectbutton
+{
+    margin-top : 10pt;
+    margin-bottom : 10pt;
+    font-size: 3vw;
+    border-color: black;
+    border-radius: 5px;
+    border-style: solid;
+    padding : 1.5%;
+}
+#toggleproject
+{
+    margin-right : 2.5%;
+    padding : 1.25%;
+}
 
 *.game
 {
@@ -85,4 +99,27 @@ nav a:hover{
 }
 #toggleproject div.research:hover{
     background-color: #d29aa9;
+}
+
+
+#project h1
+{
+    text-align: center;
+}
+#project h3
+{
+    text-align : center;
+    color : rgb(95, 95, 95);
+}
+#project
+{
+    border-radius: 10px;
+    position: sticky;
+    top: 20%;
+    block-size : 78vh;
+}
+#link{
+    position: absolute;
+    top : 95%;
+    right : 10%;
 }

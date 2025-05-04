@@ -17,27 +17,27 @@ var portfolioList = [
     },
     {
         project : "game" ,
-        name : "water taxi",
+        name : "Water Taxi",
         description : "3D simulator",
         link : "https://hexagonal-spoon.itch.io/stiltless-stilt-guys-water-taxi"
     },
     {
         project : "website",
-        name : "fetch your friends" ,
+        name : "Fetch Your Friends" ,
         description : "adoption website",
         link : "https://github.com/Torrescc/Fetch-Your-Friend"
 
     },
     {
         project : "research",
-        name : "AI plays Ultimate Tic Tac Toe",
+        name : "AI Plays Ultimate Tic Tac Toe",
         description : "AI research",
         link : "AIPlaysUltimateTicTacToe.pdf"
     }
-
 ]
 
 $(createButtons)
+
 
 /*
     creates all the buttons for selecting
@@ -45,6 +45,17 @@ $(createButtons)
 function createButtons(){
     for(let i = 0; i < portfolioList.length; i++ ){
         addButton(portfolioList[i]);
+    }
+}
+
+/*
+    for testing for extra items in the list
+ */
+function addtoportfolioList()
+{
+
+    for(let i = 0; i <20; i++){
+        portfolioList.push({project : "research" , name : "wow"})
     }
 }
 
