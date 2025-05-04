@@ -9,12 +9,31 @@
 
 var portfolioList = [
     {
+        project : "game",
         name : "God Protection Service",
-    description : "First Person Shooter" ,
-    link : "https://hexagonal-spoon.itch.io/stiltless-stilt-guys-gps"
+        description : "First Person Shooter" ,
+        link : "https://hexagonal-spoon.itch.io/stiltless-stilt-guys-gps"
 
+    },
+    {
+        project : "game" ,
+        name : "water taxi",
+        description : "3D simulator",
+        link : "https://hexagonal-spoon.itch.io/stiltless-stilt-guys-water-taxi"
+    },
+    {
+        project : "website",
+        name : "fetch your friends" ,
+        description : "adoption website",
+        link : "https://github.com/Torrescc/Fetch-Your-Friend"
+
+    },
+    {
+        project : "research",
+        name : "AI plays Ultimate Tic Tac Toe",
+        description : "AI research",
+        link : "AIPlaysUltimateTicTacToe.pdf"
     }
-
 
 ]
 
@@ -31,10 +50,13 @@ function createButtons(){
 
 
 function addButton(accomplishment){
-    let newButton = document.createElement("div");
+    let newButton = $(document.createElement("div"));
     $("#toggleproject").append(newButton);
-    newButton.textContent = accomplishment.name;
-    $(newButton).click(chanageProject);
+    newButton.text(accomplishment.name);
+    newButton.click(chanageProject);
+    // add type of div and type of project to be displayed
+    newButton.addClass("projectbutton");
+    newButton.addClass(accomplishment.project);
 }
 
 
@@ -66,9 +88,12 @@ function chanageProjectDisplay(project){
             entry.attr("href" , keyValuePair[i][1]);
         }
         if(entry.hasClass("hastext")){
-            console.log(keyValuePair[i][1])
             entry.text(keyValuePair[i][1]);
         }
-
+        if(entry.hasClass("hastype")){
+            entry.removeClass();
+            entry.addClass(keyValuePair[i][1]);
+            entry.addClass("hastype")
+        }
     }
 }

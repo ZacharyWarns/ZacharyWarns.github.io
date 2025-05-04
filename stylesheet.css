@@ -58,3 +58,31 @@ nav a:hover{
     background-color: #f8ec9d;
 }
 
+#list{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+
+
+*.game
+{
+    background-color: #baf2d8;
+}
+*.website
+{
+    background-color: #bad7f2 ;
+}
+*.research
+{
+    background-color: #f2bac9;
+}
+#toggleproject div.game:hover{
+    background-color: #9ad2b8;
+}
+#toggleproject div.website:hover{
+    background-color: #9ab7d2 ;
+}
+#toggleproject div.research:hover{
+    background-color: #d29aa9;
+}
