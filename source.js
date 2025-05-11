@@ -24,7 +24,8 @@ var portfolioList = [
         name : "Water Taxi",
         description : "3D simulator",
         link : "https://hexagonal-spoon.itch.io/stiltless-stilt-guys-water-taxi",
-        summary : ""
+        summary : "Water Taxi is a game developed by a team of three through the video game development club. The project took 4 months to complete and was done through the unity engine. There were three themes that constrained our creative proccess requiring us to come up with clever soultions." ,
+        skills  : ["Unity" , "game physics" , "C#"]
     },
     {
         project : "website",
