@@ -32,7 +32,8 @@ var portfolioList = [
         name : "Fetch Your Friends" ,
         description : "adoption website",
         link : "https://github.com/Torrescc/Fetch-Your-Friend",
-        summary : ""
+        summary : "Fetch Your Friends is a full stack website complete with a server hosting scrtipt and a sql database. We had a team of three to complete this for our software engineering semster long project. The project was made to be an adoptition webstie that was a dating site parody so it was important to be usable on both mobile and desktop. our site also get's real time adoption data using a restful api.",
+        skills : ["Node Js" , "javascript" , "front end" , "mobile application" , "SQL"]
 
     },
     {
