@@ -41,7 +41,8 @@ var portfolioList = [
         name : "AI Plays Ultimate Tic Tac Toe",
         description : "AI research",
         link : "AIPlaysUltimateTicTacToe.pdf",
-        summary : ""
+        summary : "I received a grant to research ways to improve existing AI players that play Ultimate Tic Tac Toe. I started with doing a comprehensive search of all currently used AI to understand what agents I would start. Two types of players emerged minimax and monte carlo tree search. I would then run many simulations on old and new agents and then results were compared using R. After completion of my research i presented it to my peers and at MICs symposium",
+        skills : [ "R" , "python" , "AI"]
     }
 ]
 
