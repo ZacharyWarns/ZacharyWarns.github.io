@@ -24,14 +24,16 @@ var portfolioList = [
         name : "Water Taxi",
         description : "3D simulator",
         link : "https://hexagonal-spoon.itch.io/stiltless-stilt-guys-water-taxi",
-        summary : ""
+        summary : "Water Taxi is a game developed by a team of three through the video game development club. The project took 4 months to complete and was done through the unity engine. There were three themes that constrained our creative proccess requiring us to come up with clever soultions." ,
+        skills  : ["Unity" , "game physics" , "C#"]
     },
     {
         project : "website",
         name : "Fetch Your Friends" ,
         description : "adoption website",
         link : "https://github.com/Torrescc/Fetch-Your-Friend",
-        summary : ""
+        summary : "Fetch Your Friends is a full stack website complete with a server hosting scrtipt and a sql database. We had a team of three to complete this for our software engineering semster long project. The project was made to be an adoptition webstie that was a dating site parody so it was important to be usable on both mobile and desktop. our site also get's real time adoption data using a restful api.",
+        skills : ["Node Js" , "javascript" , "front end" , "mobile application" , "SQL"]
 
     },
     {
@@ -39,7 +41,8 @@ var portfolioList = [
         name : "AI Plays Ultimate Tic Tac Toe",
         description : "AI research",
         link : "AIPlaysUltimateTicTacToe.pdf",
-        summary : ""
+        summary : "I received a grant to research ways to improve existing AI players that play Ultimate Tic Tac Toe. I started with doing a comprehensive search of all currently used AI to understand what agents I would start. Two types of players emerged minimax and monte carlo tree search. I would then run many simulations on old and new agents and then results were compared using R. After completion of my research i presented it to my peers and at MICs symposium",
+        skills : [ "R" , "python" , "AI"]
     }
 ]
 
