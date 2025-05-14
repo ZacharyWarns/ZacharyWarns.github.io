@@ -34,6 +34,17 @@ nav{
     padding : 10pt;
     font-size: 22pt
 }
+@media(width < 600px){
+    nav{
+        font-size: 16pt;
+    }
+    nav a{
+        font-size : 14pt;
+        padding-left : 5%;
+        padding-right : 5%;
+
+    }
+}
 /* navagiation buttons */
 nav a{
     border-radius: 15px;
