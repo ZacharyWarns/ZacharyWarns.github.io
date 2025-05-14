@@ -25,7 +25,8 @@ var portfolioList = [
         description : "3D simulator",
         link : "https://hexagonal-spoon.itch.io/stiltless-stilt-guys-water-taxi",
         summary : "Water Taxi is a game developed by a team of three through the video game development club. The project took 4 months to complete and was done through the unity engine. There were three themes that constrained our creative proccess requiring us to come up with clever soultions." ,
-        skills  : ["Unity" , "game physics" , "C#"]
+        skills  : ["Unity" , "game physics" , "C#"] ,
+        photos : [["watertaxi1.png" , "a rich patron being transported on a boat"] ,  ["watertaxi2.png" , "a demon being transported on a boat"] , ["watertaxi3.png" , "a victory screen 'you win' "]]
     },
     {
         project : "website",
@@ -33,7 +34,8 @@ var portfolioList = [
         description : "adoption website",
         link : "https://github.com/Torrescc/Fetch-Your-Friend",
         summary : "Fetch Your Friends is a full stack website complete with a server hosting scrtipt and a sql database. We had a team of three to complete this for our software engineering semster long project. The project was made to be an adoptition webstie that was a dating site parody so it was important to be usable on both mobile and desktop. our site also get's real time adoption data using a restful api.",
-        skills : ["Node Js" , "javascript" , "front end" , "mobile application" , "SQL"]
+        skills : ["Node Js" , "javascript" , "front end" , "mobile application" , "SQL"],
+        photos : [["FetchYourFriends4.png" , "Swiping Feature for mobile dev"] , ["FetchYourFriends2.png" , "Catalog of Pets"] , ["FetchYourFriends3.png" , "main page"]]
 
     },
     {
@@ -42,7 +44,8 @@ var portfolioList = [
         description : "AI research",
         link : "AIPlaysUltimateTicTacToe.pdf",
         summary : "I received a grant to research ways to improve existing AI players that play Ultimate Tic Tac Toe. I started with doing a comprehensive search of all currently used AI to understand what agents I would start. Two types of players emerged minimax and monte carlo tree search. I would then run many simulations on old and new agents and then results were compared using R. After completion of my research i presented it to my peers and at MICs symposium",
-        skills : [ "R" , "python" , "AI"]
+        skills : [ "R" , "python" , "AI"],
+        photos : [["UltimateTicTacToe1.png" , "chart displaying an increase of performance as increase of playouts"] , ["UltimateTicTacToe2.png" , "chart displaying an diffrences in minimax strategies" ] , [ "UltimateTicTacToe3.png" , "chart displaying increase of performance as depth increases"]]
     }
 ]
 
