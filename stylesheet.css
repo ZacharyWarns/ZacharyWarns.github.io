@@ -73,10 +73,12 @@ nav a:hover{
     border-style: solid;
     padding : 1.5%;
 }
-#toggleproject
+#left
 {
     margin-right : 2.5%;
     padding : 1.25%;
+    background-color: #ab6132;
+    border-radius: 5px;
 }
 
 *.game
