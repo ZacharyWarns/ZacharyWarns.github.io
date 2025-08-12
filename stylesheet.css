@@ -34,7 +34,7 @@ nav{
     padding : 10pt;
     font-size: 22pt
 }
-@media(width < 600px){
+@media(max-width < 600px){
     nav{
         font-size: 16pt;
     }
@@ -164,4 +164,14 @@ h1
     border-width: 2pt;
     margin: 2pt;
     padding: 2pt;
+}
+/* this the summary of me */
+#personalsummary{
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+/* this the summary of my project */
+#summary{
+    padding-left : 20pt;
+    padding-right : 20pt;
 }
