@@ -15,7 +15,7 @@ var portfolioList = [
         link : "speeddeckbuilding.com",
         summary : "Speed Deck Building is a personal project developed within 6 months. The application was created using javascript and jquery. The website was hosted using AWS service amplifiy. The Site allows for unique limited magic format where players are given a limited time to construct a competive deck.",
         skills : ["AWS" , "javascript" , "front end"],
-        photos : [["speeddeckbuilding1.png" , "home page of the speed deck building website"]]
+        photos : [["speeddeckbuilding1.png" , "home page of the speed deck building website"] , ["speeddeckbuilding2.png" , "page for the deck creation in speed deck building"] ,["speeddeckbuilding3.png" , "page for the deck editing in speed deck building"]]
     },
     {
         project : "game",
