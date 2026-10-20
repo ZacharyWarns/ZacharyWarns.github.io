@@ -7,7 +7,9 @@
 */
 
 
-var portfolioList = [
+var portfolioList = 
+[
+    
     {
         project : "game",
         name : "ChatRPG",
@@ -15,7 +17,7 @@ var portfolioList = [
         link : "https://yapary.itch.io/chat-rpg",
         summary : "ChatRPG is entry for the 2026 GameMakersToolKit Game Jam. The game was developed by a team of three and was done and 4 days. The game was completed with the godot engine. This game contains a story about a Tech CEO saving his companany from bankrupcy. The combat is dodging enemy so you convince the enemy to spare your company.",
         skills : ["Godot" , "Time Management" , "UX/UI"],
-        photos : [["chatrpg1.png" , "title screen of ChatRPG "] , ["chatrpg2.png" , "A battle screen in ChatRPG which contains an enemy, a screen of projectiles and a phone contain ChatRPG chat bot"] , ["chatrpg3.png" , "A battle screen in ChatRPG which contains an enemy, a list of options and a phone contain ChatRPG chat bot"]]
+        photos : [["chatrpg1.png" , "title screen of ChatRPG"] , ["chatrpg2.png" , "A battle screen in ChatRPG which contains an enemy, a screen of projectiles and a phone contain ChatRPG chat bot"] , ["chatrpg3.png" , "A battle screen in ChatRPG which contains an enemy, a list of options and a phone contain ChatRPG chat bot"]],
     },
     {
         project : "website",
