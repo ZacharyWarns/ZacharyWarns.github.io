@@ -15,7 +15,7 @@ var portfolioList = [
         link : "https://yapary.itch.io/chat-rpg",
         summary : "ChatRPG is entry for the 2026 GameMakersToolKit Game Jam. The game was developed by a team of three and was done and 4 days. The game was completed with the godot engine. This game contains a story about a Tech CEO saving his companany from bankrupcy. The combat is dodging enemy so you convince the enemy to spare your company.",
         skills : ["Godot" , "Time Management"],
-        photos : []
+        photos : ["https://img.itch.zone/aW1nLzI4NzYzNTc1LnBuZw==/315x250%23c/S8ulhl.png"]
     },
     {
         project : "website",
